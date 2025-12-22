@@ -3,6 +3,7 @@ import { LiaHomeSolid } from "react-icons/lia";
 import { RiShieldUserFill } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
 import { FaDiagramProject } from "react-icons/fa6";
+import gits from '../assets/githublogo.webp'
 
 const Nav = () => {
   return (
@@ -14,7 +15,7 @@ const Nav = () => {
                <div className='left md:text-4xl text-3xl md:font-bold font-extrabold text-[#9138C7]'>PS.</div>
                <div className='h-10 w-10 opacity-50 md:hidden'>
                   <a href='https://github.com/Priyanshusirsaj'>
-                   <img src='/src/assets/githublogo.webp'></img>
+                   <img src={gits}></img>
                   </a>
                </div>
                <div className='right md:flex hidden'>
