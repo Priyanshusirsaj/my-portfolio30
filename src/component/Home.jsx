@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 import me from '../assets/Priyanshusirimg.jpeg'
+import resume from "../assets/Priyanshu_Resume.pdf";
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
   
     <div className='box_home md:w-130 w-90 md:mb-0 mb-30 h-38'>
     <h1 ref={typedRef}></h1>
-    <a href='/src/assets/Priyanshu_Resume.pdf' download={'Priyanshu_resume.pdf'} target='_blank'><button className='btn1'>Download</button></a>
+    <a href={resume} download><button className='btn1'>Download</button></a>
     </div>
 
     <div className='right '  >
