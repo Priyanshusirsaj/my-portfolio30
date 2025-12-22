@@ -1,4 +1,5 @@
 import React from 'react'
+import about from '../assets/aboutimg.png'
 
 const About = () => {
     return(
@@ -35,7 +36,7 @@ const About = () => {
                               </div>
 
                            <div>
-                                  <img src='/src/assets/aboutimg.png' className=" h-90 w-100 md:my-0 my-10"></img>
+                                  <img src={about} className=" h-90 w-100 md:my-0 my-10"></img>
                            </div>
                            </div>
                 </div>

@@ -18,10 +18,18 @@ const Experience = () => {
     
     
                <div className='ex text-center pt-2 md:w-170 w-78 md:px-7 md:p-5'  data-aos="fade-zoom-in"   data-aos-duration="2000" >
-                <h2>MM News Digital Gondia Maharashtra - ||</h2>
+                <h2>MM News Digital Gondia Maharashtra Gondia - ||</h2>
                 <h3 className='text-yellow-300'><span style={{color:'yellowgreen'}}>November, 2024</span> To April 2025</h3>
                 <h6 className='ex1 text-yellow-300'>Worked on MM News</h6>
                 <p className='ex1 text-yellow-300'>Worked as a Vedeo editor</p>
+                </div>       
+
+
+                <div className='ex text-center pt-2 md:w-170 md:mt-0 mt-12 w-78 md:px-7 md:p-5'  data-aos="fade-zoom-in"   data-aos-duration="2000" >
+                <h2>Pragati Defence Coaching Classes Gondia - ||</h2>
+                <h3 className='text-yellow-300'><span style={{color:'yellowgreen'}}>September, 2025</span> To November 2025</h3>
+                <h6 className='ex1 text-yellow-300'>Worked on PowerPoint or MS-Words</h6>
+                <p className='ex1 text-yellow-300'>Worked as a PPT Devoloper & OBS Software Handler</p>
                 </div>       
           </div>
         

@@ -14,8 +14,9 @@ body{
     padding: 20px;
 }
 .nav_item:hover{
-    border-bottom: 3px solid yellow;
+    border-bottom: 2px solid yellow;
 }
+
 
 #nav-shadow{
     box-shadow: 0 0 0.5px 0 white;

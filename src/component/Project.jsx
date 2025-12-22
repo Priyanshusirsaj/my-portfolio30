@@ -1,4 +1,5 @@
 import React from 'react'
+import omni from '../assets/omni.png'
 
 const Project = () => {
     return (
@@ -10,7 +11,7 @@ const Project = () => {
           <div className='Last0 md:flex-row flex-col flex gap-5 md:ml-70 md:mt-10 items-center mt-10  '>
             <div className='Last9  ' data-aos="flip-right" data-aos-duration="2000" >
                 <div className='l22  ml-3 mt-3 bg-black'>
-                    <img src='/src/assets/omni.png' className='h-28 ml-10'></img>
+                    <img src={omni} className='h-28 ml-10'></img>
                 </div>
                 <div className='l23  text-center flex flex-col gap-2 w-full '>
                     <h1 className='mt-2.5'>E-Commerce Site</h1>
@@ -27,7 +28,7 @@ const Project = () => {
     
         <div className='Last9' data-aos="flip-right" data-aos-duration="2000" >
                 <div className='l22  ml-3 mt-3  bg-black'>
-                    <img src='/src/assets/omni.png' className='h-28 ml-10'></img>
+                    <img src={omni} className='h-28 ml-10'></img>
                 </div>
                 <div className='l23 text-center flex flex-col gap-2 w-full'>
                     <h1 className='mt-2.5'>MarkSheet Generator</h1>
@@ -43,7 +44,7 @@ const Project = () => {
             {/* // third project */}
             <div className='Last9  ' data-aos="flip-right" data-aos-duration="2000" >
                 <div className='l22  ml-3 mt-3 bg-black '>
-                    <img src='/src/assets/omni.png' className='h-28 ml-10'></img>
+                    <img src={omni} className='h-28 ml-10'></img>
                 </div>
                 <div className='l23 text-center flex flex-col gap-2 w-full'>
                     <h1 className='mt-2.5'>CRUD App</h1>
