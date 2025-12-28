@@ -5,9 +5,9 @@ import boot from '../assets/bootstraplogo.webp'
 
 const Skill = () => {
     return (
-        <div className='md:my-8 my-20 px-5' >
+        <div className='md:my-8 my-20 md:px-5 px-5' >
     
-            <h1 className='skill1 md:mx-25  md:my-8 my-8 ' id='skills'>Skills</h1>
+            <h1 className='skill1 md:mx-25  md:my-8 my-8  ' id='skills'>Skills</h1>
     
         {/* // first skill */}
             <div className='imgSk grid place-content-center text-center'>
@@ -47,7 +47,7 @@ const Skill = () => {
                  </div>
             </div>
     
-            <div className='imgL1 bg-black text-center md:ml-129  md:mt-8 ml-20  mt-8' data-aos="flip-left" data-aos-duration="2000" > 
+            <div className='imgL1 bg-black text-center md:ml-129  md:mt-8 ml-10  mt-8' data-aos="flip-left" data-aos-duration="2000" > 
               <div>
                 <img src={boot} className='h-24 w-25'/>
                 <p>Bootstrap</p>

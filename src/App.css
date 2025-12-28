@@ -6,6 +6,7 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    overflow-x: hidden;
 
 }
 
@@ -17,6 +18,9 @@ body{
     border-bottom: 2px solid yellow;
 }
 
+#side{
+    box-shadow: 0 0 10px 0 black;
+}
 
 #nav-shadow{
     box-shadow: 0 0 0.5px 0 white;
@@ -53,7 +57,7 @@ body{
     transform: scale(1.1);
 }
 
-.home .right .img img{
+.home .right .img .me{
     border: 5px solid yellow;   
     animation-name: project;
     animation-iteration-count: infinite;

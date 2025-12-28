@@ -21,7 +21,7 @@ const Contact = () => {
                    </div>
              </div>
 
-            <h1 className='LASTH1  mt-32 ml-25' id='contact'>CONTACT</h1><br></br>
+            <h1 className='LASTH1  mt-32 md:ml-25 ml-30' id='contact'>CONTACT</h1><br></br>
             <div className='Cont grid place-content-center 'data-aos="zoom-in-up" data-aos-duration="2000" >
 
        <div className='icon bg-black'>

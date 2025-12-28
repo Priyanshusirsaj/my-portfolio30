@@ -3,8 +3,8 @@ import omni from '../assets/omni.png'
 
 const Project = () => {
     return (
-        <div className='mt-50  '>
-            <h1 className="LASTH1 ml-25" id='projects'>PROJECTS</h1>
+        <div className='mt-30  '>
+            <h1 className="LASTH1 md:ml-25" id='projects'>PROJECTS</h1>
     
             {/* // first project */}
     
