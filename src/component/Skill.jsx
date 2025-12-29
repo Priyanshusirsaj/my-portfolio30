@@ -5,7 +5,7 @@ import boot from '../assets/bootstraplogo.webp'
 
 const Skill = () => {
     return (
-        <div className='md:my-8 my-20 md:px-5 px-5' >
+        <div className='md:my-8 my-20 md:px-5 px-5  overflow-hidden' >
     
             <h1 className='skill1 md:mx-25  md:my-8 my-8  ' id='skills'>Skills</h1>
     

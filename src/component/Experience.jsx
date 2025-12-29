@@ -3,7 +3,7 @@ import React from 'react'
 const Experience = () => {
     return (
         <>
-               <div className=' md:mx-30 md:my-8  md:mt-90' id='experience'>
+               <div className=' md:mx-30 md:my-8  md:mt-90' id='experience  overflow-hidden'>
           <h1 className='text-4xl'>Experience</h1>
     
     

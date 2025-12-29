@@ -25,7 +25,7 @@ const Home = () => {
     };},[])
 
   return (
-    <div className='px-9 md:px-0'>
+    <div className='px-9 md:px-0  overflow-hidden'>
            
   <div className='container_home home  flex md:flex-row flex-col justify-between h-90 items-center px-8 ' id="home">
   
@@ -41,7 +41,7 @@ const Home = () => {
     </div>
   </div>
   <div className='flex items-center border-2 border-yellow-100/35  rounded-4xl py-5 justify-center md:hidden md:mb-0 mb-22 -mt-15'>
-  <img  src={newMe} className='h-80 opacity-90 w-70  block md:hidden rounded-4xl' ></img>
+  <img  src={newMe} alt='Loading....' className='h-80 opacity-90 w-70  block md:hidden rounded-4xl' ></img>
   </div>
 
 

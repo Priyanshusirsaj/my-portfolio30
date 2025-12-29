@@ -12,7 +12,7 @@ import mac from "../assets/maclogo.webp";
 const Contact = () => {
     return (
         <div>
-             <div className='flex flex-col items-center gap-12 justify-center mt-24'>
+             <div className='flex flex-col items-center gap-12 justify-center mt-24  overflow-hidden'>
                    <h1 className='text-4xl font-semibold'><span className='text-[#9138C7] md:text-5xl font-semibold'>Tools </span> I Usse</h1>
                    <div className='grid md:grid-cols-3  grid-cols-1  gap-8'>
                    <div className='border-2 border-[#9138C7] px-4 py-2 rounded-2xl  text-center cont flex items-center bg-black'> <img src={vslogo} className='h-13 w-20'></img> Vs-Code</div>

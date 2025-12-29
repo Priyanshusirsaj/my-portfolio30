@@ -9,19 +9,20 @@ import { FiAlignRight } from "react-icons/fi";
 import myLogo from "../assets/myLogo.jpg"
 
 const Nav = () => {
-const [open , setOpen ]= useState(-450)
+const [open , setOpen ]= useState('none')
 
   const handle = ()=>{
-   setOpen(0)
+   setOpen('block')
 
   }
 
   const closeSide = ()=>{
-    setOpen(-450)
+    setOpen('none')
+
   }
   return (
     <>
-       <div id='nav-shadow' className='md:px-10 px-4 md:py-5 w-full relative ' >
+       <div id='nav-shadow' className='md:px-10 px-4 md:py-5 w-full relative overflow-hidden ' >
      
       
           <div className='flex justify-between items-center md:py-0 py-5'>
@@ -50,9 +51,10 @@ const [open , setOpen ]= useState(-450)
       </div>
 
       
-      <div className="h-[40%] w-[70%] bg-black md:hidden absolute rounded-4xl mt-7 z-80" id='side' style={{
+      <div className="h-[40%] w-[70%] bg-black md:hidden absolute rounded-4xl mt-7 z-50" id='side' style={{
         top:55,
-        right: open,
+        right:0,
+        display: open,
         transition:'0.3s',
       
       }}>
